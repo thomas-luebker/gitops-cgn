@@ -18,6 +18,7 @@ queries:
 agent_options:
   path: ../lib/agent-options.yml
 controls:
+  enable_disk_encryption: true
   macos_updates:
     deadline: "2025-10-31"
     minimum_version: "26.0"
@@ -26,6 +27,7 @@ controls:
       - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
       - path: ../lib/macos/configuration-profiles/passcode-settings-ddm.json
   scripts:
+    - path: ../lib/windows/scripts/set-wallpaper.ps1
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
     - path: ../lib/macos/scripts/set-timezone.script.sh
 team_settings:
