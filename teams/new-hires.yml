@@ -9,6 +9,7 @@
 
 name: New-Hires
 policies:
+  - path: ../lib/macos/policies/dns-resolver.policies,yml
   - path: ../lib/macos/policies/macos-device-health.policies.yml
   - path: ../lib/windows/policies/windows-device-health.policies.yml
   - path: ../lib/linux/policies/linux-device-health.policies.yml
