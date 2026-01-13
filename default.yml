@@ -22,10 +22,10 @@ org_settings:
   features:
     enable_host_users: true
     enable_software_inventory: true
-host_expiry_settings:
-  host_expiry:enabled: true
-  host_expiry_window: 30
-webhook_settings:
-  activities_webhook: 
-   enable_activities_webhook: true
-   destination_url: https://webhook.site/f9723455-8606-4307-b59e-85c075340a2b
+  host_expiry_settings:
+   host_expiry:enabled: true
+   host_expiry_window: 30
+  webhook_settings:
+   activities_webhook: 
+    enable_activities_webhook: true
+    destination_url: https://webhook.site/f9723455-8606-4307-b59e-85c075340a2b
