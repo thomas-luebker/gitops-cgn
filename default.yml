@@ -16,9 +16,13 @@ org_settings:
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Fleet
+    org_name: Lufthansa Group
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
     enable_host_users: true
     enable_software_inventory: true
+webhook_Settings:
+  activities_webhook: 
+   enable_activities_webhook: true
+   destination_url: https://webhook.site/f9723455-8606-4307-b59e-85c075340a2b
